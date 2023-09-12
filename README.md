@@ -43,3 +43,35 @@ int* 형을 저장할 수 있는 방 3개로 구성된 배열이다. 1차원 포
 int *p = Pointer; //정수형 값의 주소를 대입하는 것.
 
 int **p = &p //2중 포인터에 1차원 포인터의 주소를 대입
+
+# Conditional_Compilation (조건부 컴파일)
+
+*조건부 컴파일을 위한 지시자
+
+#if #elif #else #endif문은 조건부 컴파일을 위한 지시자로서, 특정 조건이 만족하면 컴파일 작업을 수행하고 그렇지 않으면 컴파일을 수행하지 않도록 할 때 사용한다.
+
+#ifdef문은 특정 매크로가 정의되어 있는지를 물어본다. #ifndef문은 if not define을 줄여서 만든 문장이므로 특정 매크로가 정의되어 있지 않았는지를 물어 볼 때 사용한다. 다음은 #ifdef문, #ifndef문을 사용한 프로그램이다.
+
+* #undef
+* 
+#undef는 #define과 반대의 역할을 하는 것으로 이미 정의된 기호 상수를 취소시켜 정의되지 않은 상태로 만들고자 할 때 사용한다.
+
+#define SIZE 10
+
+I=SIZE;
+
+#define SIZE 20
+
+J=SIZE;
+
+위 코드에서 SIZE를 두 번 정의할 수 없으므로 오류가 난다. 이럴 때 undef를 사용한다.
+
+#define SIZE 10
+
+I=SIZE;
+
+#undef SIZE
+
+#define SIZE 20
+
+j=SIZE;
