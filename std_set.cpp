@@ -73,7 +73,7 @@ int main()
 
 	cout << endl;
 
-	//set은 std::find를 사용할 수 있다. 하지만 map은 std::find를 사용할 수 없다.
+	//set은 std::find를 사용할 수 있다.
 	auto Tempiter = find(setGreater_int.begin(), setGreater_int.end(), 5);
 
 	cout << *Tempiter << endl;
