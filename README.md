@@ -168,3 +168,11 @@ Red-Black Tree 기반이기 때문에 검색과 삽입이 빠른 편이다. 해�
 많이 사용한다는 단점이 존재한다. multiset과 multimap은 중복을 허용한다. 이 두 컨테이너 또한 Red-Black Tree로 이루어져 있다. 
 
 unordered_map과 unordered_set 또한 중복 키를 허용하지 않는다. unordered_map은 중복 값에 대해 체이닝 구조로 저장한다.
+
+# Reference Variable
+
+Reference끼리의 대입은 좌항의 레퍼런스가 가리키고 있는 변수를 바꾸는 것이 아니라
+
+좌항의 레퍼런스가 가리키고 있는 변수의 값이 우항 레퍼런스가 가리키고 있는 값으로 바뀌는 것이다.
+
+레퍼런스 변수는 선언과 동시에 가리킬 변수가 정해지고 바뀔 수 없다.
