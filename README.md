@@ -156,3 +156,7 @@ cout<<"기반 클래스에서 미리 구현"<<endl;
 # ptr_fun (function pointer adpater)
 
 일반 함수를 함수 객체로 포장하는 ptr_fun의 사용법에 대해서 알아본다.
+
+# mem_fun (member function pointer adapter)
+
+클래스 내의 멤버 함수를 함수 객체로 포장하는 mem_fun의 사용법에 대해서 알아본다.
