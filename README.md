@@ -160,3 +160,9 @@ cout<<"기반 클래스에서 미리 구현"<<endl;
 # mem_fun (member function pointer adapter)
 
 클래스 내의 멤버 함수를 함수 객체로 포장하는 mem_fun의 사용법에 대해서 알아본다.
+
+# std::set, std:map 
+
+Red-Black Tree 기반의 set과 map을 알아본다. set과 map은 중복 키를 허용하지 않는다. set은 키 값만을 저장하고, map은 키를 기준으로 정렬하고 키와 값 쌍을 저장한다.
+Red-Black Tree 기반이기 때문에 검색과 삽입이 빠른 편이다. 해시 기반 컨테이너인 unordered_set,unordered_map 보다는 느리다. 하지만 해시 기반 컨테이너들은 메모리를
+많이 사용한다는 단점이 존재한다.
