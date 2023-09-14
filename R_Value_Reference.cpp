@@ -41,10 +41,16 @@ int main()
 
 	cout << _a;*/
 
+	int iTemp = 20;
+
+
 	int&& RRa = 10;
 	cout << &RRa << endl;
 	RRa = 20;
 	cout << &RRa << endl;
+
+	//R value Reference는 L-Value를 참조할 수 없다.
+	//int&& RRb = iTemp;
 
 	//A&& ATemp = A(20);
 	//ATemp.SetiTemp(30);
