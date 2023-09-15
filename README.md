@@ -201,3 +201,11 @@ R value Reference가 참조하게 되면 해당 메모리의 주소 공간을 �
 # std::push_heap
 
 vector 컨테이너를 push_heap 함수를 사용하여 최소,최대 힙으로 구성하는 방법에 대해서 알아본다.
+
+# const char* , const char* const
+
+자료형 앞에 const가 붙은 경우는 다른 문자열을 저장할 수 없다는 뜻이고, 자료형 뒤에 const가 붙은 경우는 저장된 문자열의 내용을 변경할 수 없다는 것이다.
+
+# static & template
+
+클래스 템플릿과 함수 템플릿 내부에 정적 변수를 선언하면 각 특수화된 클래스와 함수마다 독립적인 정적 변수를 가진다.
