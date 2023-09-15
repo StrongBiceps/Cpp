@@ -198,6 +198,8 @@ R value Reference가 참조하게 되면 해당 메모리의 주소 공간을 �
 
 스택에 다시 할당되는 것은 아니다. 복잡한 클래스의 임시 객체는 스택에 할당된다.
 
+Reference 자료형은 NULL로 Initialization할 수 없다.
+
 # std::push_heap
 
 vector 컨테이너를 push_heap 함수를 사용하여 최소,최대 힙으로 구성하는 방법에 대해서 알아본다.
